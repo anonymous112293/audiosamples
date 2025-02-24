@@ -1,0 +1,472 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Audio samples from "Integrating Scalable Attention Architecture with Multi-Resolution Full-Band Discriminator for High Fidelity Audio Waveform Generation"</title>
+    <meta charset="UTF-8">
+    <title>Integrating Scalable Attention Architecture with Multi-Resolution Full-Band Discriminator for High Fidelity Audio Waveform Generation</title>
+    <style>
+        red {color: red}
+        audio {width: 250px}
+    </style>
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>Audio samples from "Integrating Scalable Attention Architecture with Multi-Resolution Full-Band Discriminator for High Fidelity Audio Waveform Generation"</h1>
+      </header>
+    </article>
+
+
+    <div>
+      <b>Abstract:</b>
+      Generative Adversarial Network vocoders have gained significant attention due to their ability to generate high-quality audio with fast inference speeds. In this work, we propose a scalable hierarchical architecture incorporating multi-order spatial attention and channel attention stacking is developed to enhance feature representation learning, this design enables progressive refinement of acoustic features through attention-guided processing. Moreover, we propose a multi-resolution full-band discriminator framework that simultaneously capture local spectral details and global waveform coherence with multiple resolutions, effectively mitigating blurring artifacts that commonly occur in conventional discriminators, our discriminator explicitly integrates both the magnitude information and complex-domain representations by jointly processing the magnitude, real, and imaginary components.
+    <p></p>
+    </div>
+
+
+    <b>Contents:</b>
+    <div id="toc_container">
+    <ul>
+      <li><a href="#lj">TTS on LJ Speech Dataset</a></li>
+      <li><a href="#MutiSpeaker1">Muti-speaker results on VCTK</a></li>
+    </ul>
+    </div>
+    <div>
+        <a name="lj"><h2>TTS on LJ Speech Dataset</h2></a>
+        <hr>
+        <table>
+            <thead>
+                <tr>
+                <th>Ground-Truth</th>
+                <th> HiFi-GAN </th>
+                <th> BigVGAN</th>
+                <th> Vocos</th>
+                <th> MSACA+HiFiGAN</th>
+                <th> MSACA+BigVGAN</th>
+                <th> MSACA+iSTFT</th>
+                </tr>
+              </thead>
+          <tbody>
+          <tr>
+             <td colspan="7"><span>1: the forms of printed letters should be beautiful, and that their arrangement on the page should be reasonable and a help to the shapeliness of the letters themselves.</span></td>
+          </tr>
+          <tr>
+            <td><audio controls="" preload="none"><source src="audios/01_lj/LJ001-0015.wav"></audio></td>
+            <td><audio controls="" preload="none"><source src="audios/01_lj_hifigan/LJ001-0015_generated.wav"></audio></td>           
+            <td><audio controls="" preload="none"><source src="audios/01_lj_bigvgan/LJ001-0015_generated.wav"></audio></td>
+            <td><audio controls="" preload="none"><source src="audios/01_lj_vocos/generate_LJ001-0015.wav"></audio></td>
+            <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_hifigan/generate_LJ001-0015.wav"></audio></td>
+            <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_bigvgan/generate_LJ001-0015.wav"></audio></td>
+            <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_istft/generate_LJ001-0015.wav"></audio></td>
+          </tr>
+
+          <tr>
+            <td colspan="7"><span>2: he eight courts above enumerated were well supplied with water.</span></td>
+          </tr>
+          <tr>
+           <td><audio controls="" preload="none"><source src="audios/01_lj/LJ002-0096.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_hifigan/LJ002-0096_generated.wav"></audio></td>           
+           <td><audio controls="" preload="none"><source src="audios/01_lj_bigvgan/LJ002-0096_generated.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_vocos/generate_LJ002-0096.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_hifigan/generate_LJ002-0096.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_bigvgan/generate_LJ002-0096.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_istft/generate_LJ002-0096.wav"></audio></td>
+          </tr>
+
+          <tr>
+            <td colspan="7"><span>3: that not more than one bottle of wine or one quart of beer could be issued at one time. No account was taken of the amount of liquors admitted in one day.</span></td>
+          </tr>
+          <tr>
+           <td><audio controls="" preload="none"><source src="audios/01_lj/LJ003-0011.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_hifigan/LJ003-0011_generated.wav"></audio></td>           
+           <td><audio controls="" preload="none"><source src="audios/01_lj_bigvgan/LJ003-0011_generated.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_vocos/generate_LJ003-0011.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_hifigan/generate_LJ003-0011.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_bigvgan/generate_LJ003-0011.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_istft/generate_LJ003-0011.wav"></audio></td>
+          </tr>
+
+          <tr>
+            <td colspan="7"><span>4: as indefatigable and self-sacrificing, found by personal visitation that the condition of jails throughout the kingdom was.</span></td>
+          </tr>
+          <tr>
+           <td><audio controls="" preload="none"><source src="audios/01_lj/LJ004-0009.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_hifigan/LJ004-0009_generated.wav"></audio></td>           
+           <td><audio controls="" preload="none"><source src="audios/01_lj_bigvgan/LJ004-0009_generated.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_vocos/generate_LJ004-0009.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_hifigan/generate_LJ004-0009.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_bigvgan/generate_LJ004-0009.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_istft/generate_LJ004-0009.wav"></audio></td>
+          </tr>
+          
+          <tr>
+            <td colspan="7"><span>5: refuted by abundant evidence, and having no foundation whatever in truth.</span></td>
+          </tr>
+          <tr>
+           <td><audio controls="" preload="none"><source src="audios/01_lj/LJ005-0019.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_hifigan/LJ005-0019_generated.wav"></audio></td>           
+           <td><audio controls="" preload="none"><source src="audios/01_lj_bigvgan/LJ005-0019_generated.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_vocos/generate_LJ005-0019.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_hifigan/generate_LJ005-0019.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_bigvgan/generate_LJ005-0019.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_istft/generate_LJ005-0019.wav"></audio></td>
+          </tr>
+
+          <tr>
+            <td colspan="7"><span>6: Later on he had devoted himself to the personal investigation of the prisons of the United States.</span></td>
+          </tr>
+          <tr>
+           <td><audio controls="" preload="none"><source src="audios/01_lj/LJ006-0021.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_hifigan/LJ006-0021_generated.wav"></audio></td>           
+           <td><audio controls="" preload="none"><source src="audios/01_lj_bigvgan/LJ006-0021_generated.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_vocos/generate_LJ006-0021.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_hifigan/generate_LJ006-0021.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_bigvgan/generate_LJ006-0021.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_istft/generate_LJ006-0021.wav"></audio></td>
+          </tr>
+
+          <tr>
+            <td colspan="7"><span>7: in the face of impediments confessedly discouraging.</span></td>
+          </tr>
+          <tr>
+           <td><audio controls="" preload="none"><source src="audios/01_lj/LJ007-0071.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_hifigan/LJ007-0071_generated.wav"></audio></td>           
+           <td><audio controls="" preload="none"><source src="audios/01_lj_bigvgan/LJ007-0071_generated.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_vocos/generate_LJ007-0071.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_hifigan/generate_LJ007-0071.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_bigvgan/generate_LJ007-0071.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_istft/generate_LJ007-0071.wav"></audio></td>
+          </tr>
+          
+          <tr>
+            <td colspan="7"><span>8: This contrivance appears to have been copied with improvements from that which had been used in Dublin at a still earlier date,</span></td>
+          </tr>
+          <tr>
+           <td><audio controls="" preload="none"><source src="audios/01_lj/LJ008-0054.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_hifigan/LJ008-0054_generated.wav"></audio></td>           
+           <td><audio controls="" preload="none"><source src="audios/01_lj_bigvgan/LJ008-0054_generated.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_vocos/generate_LJ008-0054.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_hifigan/generate_LJ008-0054.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_bigvgan/generate_LJ008-0054.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_istft/generate_LJ008-0054.wav"></audio></td>
+          </tr>
+
+          <tr>
+            <td colspan="7"><span>9: the schoolmaster and the juvenile prisoners being seated round the communion-table, opposite the pulpit.</span></td>
+          </tr>
+          <tr>
+           <td><audio controls="" preload="none"><source src="audios/01_lj/LJ009-0037.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_hifigan/LJ009-0037_generated.wav"></audio></td>           
+           <td><audio controls="" preload="none"><source src="audios/01_lj_bigvgan/LJ009-0037_generated.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_vocos/generate_LJ009-0037.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_hifigan/generate_LJ009-0037.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_bigvgan/generate_LJ009-0037.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_istft/generate_LJ009-0037.wav"></audio></td>
+          </tr>
+
+          <tr>
+            <td colspan="7"><span>10: Nor did the methods by which they were perpetrated greatly vary from those in times past.</span></td>
+          </tr>
+          <tr>
+           <td><audio controls="" preload="none"><source src="audios/01_lj/LJ010-0027.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_hifigan/LJ010-0027_generated.wav"></audio></td>           
+           <td><audio controls="" preload="none"><source src="audios/01_lj_bigvgan/LJ010-0027_generated.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_vocos/generate_LJ010-0027.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_hifigan/generate_LJ010-0027.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_bigvgan/generate_LJ010-0027.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_istft/generate_LJ010-0027.wav"></audio></td>
+          </tr>
+
+          <tr>
+            <td colspan="7"><span>11: Visited Mr. Fauntleroy. My application for books for him not having been attended, I had no prayer-book to give him.</span></td>
+          </tr>
+          <tr>
+           <td><audio controls="" preload="none"><source src="audios/01_lj/LJ011-0041.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_hifigan/LJ011-0041_generated.wav"></audio></td>           
+           <td><audio controls="" preload="none"><source src="audios/01_lj_bigvgan/LJ011-0041_generated.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_vocos/generate_LJ011-0041.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_hifigan/generate_LJ011-0041.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_bigvgan/generate_LJ011-0041.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_istft/generate_LJ011-0041.wav"></audio></td>
+          </tr>
+
+          <tr>
+            <td colspan="7"><span>12: Weedon and Lecasser to twelve and six months respectively in Coldbath Fields.</span></td>
+          </tr>
+          <tr>
+           <td><audio controls="" preload="none"><source src="audios/01_lj/LJ012-0015.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_hifigan/LJ012-0015_generated.wav"></audio></td>           
+           <td><audio controls="" preload="none"><source src="audios/01_lj_bigvgan/LJ012-0015_generated.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_vocos/generate_LJ012-0015.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_hifigan/generate_LJ012-0015.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_bigvgan/generate_LJ012-0015.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_istft/generate_LJ012-0015.wav"></audio></td>
+          </tr>
+
+          <tr>
+            <td colspan="7"><span>13: One of the earliest of the big operators in fraudulent finance was Edward Beaumont Smith.</span></td>
+          </tr>
+          <tr>
+           <td><audio controls="" preload="none"><source src="audios/01_lj/LJ013-0005.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_hifigan/LJ013-0005_generated.wav"></audio></td>           
+           <td><audio controls="" preload="none"><source src="audios/01_lj_bigvgan/LJ013-0005_generated.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_vocos/generate_LJ013-0005.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_hifigan/generate_LJ013-0005.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_bigvgan/generate_LJ013-0005.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_istft/generate_LJ013-0005.wav"></audio></td>
+          </tr>
+
+          <tr>
+            <td colspan="7"><span>14: This was Delarue's watch, fully identified as such, which Hocker told his brother Delarue had given him the morning of the murder.</span></td>
+          </tr>
+          <tr>
+           <td><audio controls="" preload="none"><source src="audios/01_lj/LJ014-0029.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_hifigan/LJ014-0029_generated.wav"></audio></td>           
+           <td><audio controls="" preload="none"><source src="audios/01_lj_bigvgan/LJ014-0029_generated.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_vocos/generate_LJ014-0029.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_hifigan/generate_LJ014-0029.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_bigvgan/generate_LJ014-0029.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_istft/generate_LJ014-0029.wav"></audio></td>
+          </tr>
+
+          <tr>
+            <td colspan="7"><span>15: Chronicles of Newgate, Volume 2. By Arthur Griffiths. Section 18: Newgate notorieties continued, part 3.</span></td>
+          </tr>
+          <tr>
+           <td><audio controls="" preload="none"><source src="audios/01_lj/LJ015-0001.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_hifigan/LJ015-0001_generated.wav"></audio></td>           
+           <td><audio controls="" preload="none"><source src="audios/01_lj_bigvgan/LJ015-0001_generated.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_vocos/generate_LJ015-0001.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_hifigan/generate_LJ015-0001.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_bigvgan/generate_LJ015-0001.wav"></audio></td>
+           <td><audio controls="" preload="none"><source src="audios/01_lj_msaca_istft/generate_LJ015-0001.wav"></audio></td>
+          </tr>
+          
+          
+          
+          </tbody>
+        </table>
+        <hr>
+
+      </div>
+      <br><br>
+
+    <div>
+      <a name="MutiSpeaker1"><h2>Muti-speaker results on VCTK</h2></a>
+        <hr>
+        <table>
+          <thead>
+            <tr>
+            <th>Ground-Truth</th>
+            <th> HiFi-GAN </th>
+            <th> BigVGAN</th>
+            <th> Vocos</th>
+            <th> MSACA+HiFiGAN</th>
+            <th> MSACA+BigVGAN</th>
+            <th> MSACA+iSTFT</th>
+            </tr>
+          </thead>
+      <tbody>
+          <tbody>
+            <tr>
+              <td colspan="7"><span>1: Maybe this battle has been.</span></td>
+            </tr>
+            <tr>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk/p226_121.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_hifigan/p226_121_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_bigvgan/p226_121_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_vocos/generate_p226_121.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_hifigan/generate_p226_121.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_bigvgan/generate_p226_121.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_istft/generate_p226_121.wav"></audio></td>
+            </tr>
+
+            <tr>
+              <td colspan="7"><span>2: What are you not good at?</span></td>
+            </tr>
+            <tr>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk/p227_213.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_hifigan/p227_213_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_bigvgan/p227_213_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_vocos/generate_p227_213.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_hifigan/generate_p227_213.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_bigvgan/generate_p227_213.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_istft/generate_p227_213.wav"></audio></td>
+            </tr>
+
+            <tr>
+              <td colspan="7"><span>3: The Scottish Parliament is also looking at similar measures.</span></td>
+            </tr>
+            <tr>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk/p228_048.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_hifigan/p228_048_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_bigvgan/p228_048_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_vocos/generate_p228_048.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_hifigan/generate_p228_048.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_bigvgan/generate_p228_048.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_istft/generate_p228_048.wav"></audio></td>
+            </tr>
+
+            <tr>
+              <td colspan="7"><span>4: That was the easy election.</span></td>
+            </tr>
+            <tr>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk/p229_067.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_hifigan/p229_067_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_bigvgan/p229_067_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_vocos/generate_p229_067.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_hifigan/generate_p229_067.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_bigvgan/generate_p229_067.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_istft/generate_p229_067.wav"></audio></td>
+            </tr>
+
+            <tr>
+              <td colspan="7"><span>5: It might change your life.</span></td>
+            </tr>
+            <tr>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk/p230_083.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_hifigan/p230_083_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_bigvgan/p230_083_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_vocos/generate_p230_083.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_hifigan/generate_p230_083.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_bigvgan/generate_p230_083.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_istft/generate_p230_083.wav"></audio></td>
+            </tr>
+
+            <tr>
+              <td colspan="7"><span>6: One season, they might do well.</span></td>
+            </tr>
+            <tr>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk/p231_174.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_hifigan/p231_174_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_bigvgan/p231_174_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_vocos/generate_p231_174.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_hifigan/generate_p231_174.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_bigvgan/generate_p231_174.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_istft/generate_p231_174.wav"></audio></td>
+            </tr>
+
+            <tr>
+              <td colspan="7"><span>7: We recognise the important role of golf in attracting visitors.</span></td>
+            </tr>
+            <tr>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk/p232_103.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_hifigan/p232_103_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_bigvgan/p232_103_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_vocos/generate_p232_103.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_hifigan/generate_p232_103.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_bigvgan/generate_p232_103.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_istft/generate_p232_103.wav"></audio></td>
+            </tr>
+
+            <tr>
+              <td colspan="7"><span>8: It is not affected by the sale.</span></td>
+            </tr>
+            <tr>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk/p233_109.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_hifigan/p233_109_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_bigvgan/p233_109_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_vocos/generate_p233_109.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_hifigan/generate_p233_109.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_bigvgan/generate_p233_109.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_istft/generate_p233_109.wav"></audio></td>
+            </tr>
+
+            <tr>
+              <td colspan="7"><span>9: These take the shape of a long round arch, with its path high above, and its two ends apparently beyond the horizon.</span></td>
+            </tr>
+            <tr>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk/p234_008.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_hifigan/p234_008_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_bigvgan/p234_008_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_vocos/generate_p234_008.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_hifigan/generate_p234_008.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_bigvgan/generate_p234_008.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_istft/generate_p234_008.wav"></audio></td>
+            </tr>
+
+            <tr>
+              <td colspan="7"><span>10: Aristotle thought that the rainbow was caused by reflection of the sun's rays by the rain.</span></td>
+            </tr>
+            <tr>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk/p236_018.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_hifigan/p236_018_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_bigvgan/p236_018_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_vocos/generate_p236_018.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_hifigan/generate_p236_018.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_bigvgan/generate_p236_018.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_istft/generate_p236_018.wav"></audio></td>
+            </tr>
+
+            <tr>
+              <td colspan="7"><span>11: No one has appeared in court in relation to her death.</span></td>
+            </tr>
+            <tr>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk/p237_056.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_hifigan/p237_056_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_bigvgan/p237_056_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_vocos/generate_p237_056.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_hifigan/generate_p237_056.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_bigvgan/generate_p237_056.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_istft/generate_p237_056.wav"></audio></td>
+            </tr>
+
+            <tr>
+              <td colspan="7"><span>12: Does it matter?</span></td>
+            </tr>
+            <tr>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk/p238_053.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_hifigan/p238_053_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_bigvgan/p238_053_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_vocos/generate_p238_053.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_hifigan/generate_p238_053.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_bigvgan/generate_p238_053.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_istft/generate_p238_053.wav"></audio></td>
+            </tr>
+
+            <tr>
+              <td colspan="7"><span>13: He works at the airport.</span></td>
+            </tr>
+            <tr>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk/p239_037.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_hifigan/p239_037_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_bigvgan/p239_037_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_vocos/generate_p239_037.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_hifigan/generate_p239_037.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_bigvgan/generate_p239_037.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_istft/generate_p239_037.wav"></audio></td>
+            </tr>
+
+            <tr>
+              <td colspan="7"><span>14: Is this accurate?</span></td>
+            </tr>
+            <tr>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk/p240_028.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_hifigan/p240_028_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_bigvgan/p240_028_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_vocos/generate_p240_028.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_hifigan/generate_p240_028.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_bigvgan/generate_p240_028.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_istft/generate_p240_028.wav"></audio></td>
+            </tr>
+
+            <tr>
+              <td colspan="7"><span>15: However , the following year the cancer returned.</span></td>
+            </tr>
+            <tr>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk/p241_029.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_hifigan/p241_029_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_bigvgan/p241_029_generated.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_vocos/generate_p241_029.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_hifigan/generate_p241_029.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_bigvgan/generate_p241_029.wav"></audio></td>
+              <td><audio controls="" preload="none"><source src="audios/02_vctk_msaca_istft/generate_p241_029.wav"></audio></td>
+            </tr>
+
+        </table>
+      </div>
+  <br><br>
+<!-- <br><br> -->
+
+
+<br><br>
+</body></html>
